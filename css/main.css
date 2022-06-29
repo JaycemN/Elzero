@@ -905,6 +905,11 @@ nav ul li a:hover{
     padding-bottom: var(--main-padding-bottom);
     position: relative;
   }
+  @media (max-width: 1227px) {
+    .events .dots {
+      display: none;
+    }
+  }
   .events .container {
     display: flex;
     align-items: center;
